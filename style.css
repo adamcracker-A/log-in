@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    background: url(boy.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.wrapper{
+    border: solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 300px;
+}
+.myp{
+    font-size: 25px;
+    color: white;
+}
+#myhome{
+    color: white;
+    font-size: large;
+}
+.div-section{
+    padding: 15px;
+}
+.btn1{
+    border-radius: 15px;
+    padding: 6px;
+    margin-right: 25px;
+    background-color: black;
+    color: white;
+}
+.btn2{
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 25px;
+    background-color: black;
+    color: white;
+}
+.div-section input{
+    height: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+}
+.div-section input::placeholder{
+    color: white;
+}
+.div-section i{
+    padding: 5px;
+    color: white;
+}
+
